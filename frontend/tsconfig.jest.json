@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "types": ["vite/client", "@testing-library/jest-dom", "jest", "node"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "verbatimModuleSyntax": false,
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts", 
+    "src/**/*.tsx", 
+    "src/**/*.test.ts", 
+    "src/**/*.test.tsx", 
+    "src/**/*.spec.ts", 
+    "src/**/*.spec.tsx", 
+    "src/**/*.d.ts"
+  ],
+  "files": ["src/jest-dom.d.ts"]
+}
+
